@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import HooksApp from './HooksApp'
+import { HooksApp } from '../src/Components'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
