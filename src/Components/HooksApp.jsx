@@ -1,7 +1,8 @@
 // React no se importa porque esta de forma globall
 import { Example } from "./Example"
-import { CounterApp, CounterWithCustomHook } from "./01-useState/"
-import { SimpleForm, FormWithCostumHook } from "./02-useEffect"
+import { CounterApp, CounterWithCustomHook } from "../01-useState"
+import { SimpleForm, FormWithCostumHook } from "../02-useEffect"
+import { MultipleCustomHooks } from "../03-Examples/MultipleCustomHooks"
 
 const HooksApp = () => {
 	return (
@@ -12,8 +13,9 @@ const HooksApp = () => {
 			<CounterWithCustomHook />
 			<SimpleForm />
 			<FormWithCostumHook />
+			<MultipleCustomHooks />
 		</>
 	)
 }
 
-export default HooksApp
+export {HooksApp}
