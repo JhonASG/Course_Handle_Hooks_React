@@ -4,10 +4,10 @@ import { CounterApp, CounterWithCustomHook } from "../01-useState"
 import { SimpleForm, FormWithCostumHook } from "../02-useEffect"
 import { MultipleCustomHooks } from "../03-Examples/MultipleCustomHooks"
 import { FocusScreen } from "../04-useRef/FocusScreen"
-import { Memorize } from "../05-memo/Memorize"
-import { MemoHook } from "../05-memo/MemoHook"
+import { Memorize, MemoHook } from "../05-memo"
 import { CallbackHook } from "../06-useCallback/CallbackHook"
 import { Padre } from "../07-tarea-memo-me/Padre"
+import '../08-useReducer/intro-reducer'
 
 const HooksApp = () => {
 	return (
